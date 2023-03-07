@@ -40,6 +40,7 @@ export default function Home() {
           </div>
         </div>
           <div id="data" className="flex bg-moon justify-around items-center mt-36 flex-wrap">
+            <h1>{process.env.NEXT_PUBLIC_MAP_API_KEY}</h1>
             <MapComp />
   
           </div>
