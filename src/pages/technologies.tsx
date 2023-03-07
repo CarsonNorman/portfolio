@@ -1,6 +1,6 @@
 function Techs() {
   return (
-    <div className="flex-1  flex-wrap w-1/4 max-w-sm min-w-c mx-auto">
+    <div className="flex-1  flex-wrap w-1/3 max-w-sm min-w-c mx-auto">
       <div id="techtop" >
         <h1 className="text-xl mx-3">languages</h1>
         <ul className="flex flex-wrap text-sm">
