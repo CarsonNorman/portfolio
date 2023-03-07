@@ -21,7 +21,7 @@ function MapComp() {
     return <div>Loading...</div>;
   }
   return (
-    <div className="z-0 h-m w-3/4 min-w-c my-5 rounded overflow-hidden">
+    <div className="z-0 h-m w-2/3 min-w-c my-5 rounded overflow-hidden">
         <GoogleMap 
         options={mapOptions}
         zoom={10}
