@@ -34,7 +34,7 @@ a {
   font-family: "PressStart";
   src: url('./fonts/PressStart.ttf');
 }
-@media screen and (min-width: 700px){
+@media screen and (max-width: 700px){
   html{
     font-size: 15px;
   }
