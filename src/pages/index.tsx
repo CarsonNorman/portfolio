@@ -9,6 +9,7 @@ import Techs from "./technologies";
 import Contact from "./contact";
 import MapComp from "@/components/map";
 import Email from "@/components/email";
+import Work from "./work";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,9 +40,12 @@ export default function Home() {
             <Techs />
           </div>
         </div>
+          <div id="work">
+          <h1 className="text-center text-3xl my-32">Work</h1>
+            <Work />
+          </div>
           <div id="data" className="flex bg-moon justify-around items-center mt-36 flex-wrap">
             <MapComp />
-  
           </div>
         <Contact />
       </main>
